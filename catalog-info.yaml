@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-kafka
+  description: the mirror of Apache Kafka
+  tags:
+  - java
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-kafka
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-kafka/tree/trunk/
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    blitzy.com/language: java
+spec:
+  type: service
+  lifecycle: production
+  owner: blitzy-sandbox
+  system: blitzy-java
